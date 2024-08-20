@@ -18,7 +18,7 @@
 
 .scrollbar-custom {
     scrollbar-width: thin;
-    scrollbar-color:  white #002041;
+    scrollbar-color: white #002041;
 }
 
 .scrollbar-custom::-webkit-scrollbar {
@@ -196,6 +196,7 @@ body {
     gap: 20px;
     -webkit-backdrop-filter: blur(60px);
     backdrop-filter: blur(60px);
+
 }
 
 .video-area {
@@ -623,4 +624,72 @@ body {
         top: 95px;
     }
 
+}
+
+@media (max-width: 380px) {
+    .main-content {
+        flex-direction: column;
+        padding: 20px 5vw;
+    }
+
+    .text-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .text-content h1 {
+        font-size: 36px;
+    }
+
+    .text-content p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .image-content {
+        margin-bottom: 20px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .download-btn,
+    .browser-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .glassy-card {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .text-area h2 {
+        font-size: 5vw;
+    }
+
+    .text-area p {
+        font-size: 3vw;
+    }
+
+    .cant-scroll {
+        font-size: 5vw;
+    }
+
+    .cant-scroll button {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .logos-slide .text {
+        font-size: 36px;
+        margin: 0 20px;
+    }
 }
